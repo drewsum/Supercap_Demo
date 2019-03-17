@@ -24,3 +24,7 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# LTSpice sim files
+*.log
+*.raw

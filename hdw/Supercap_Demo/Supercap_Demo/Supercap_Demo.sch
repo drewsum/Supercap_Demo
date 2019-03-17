@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:Supercap_Demo-cache
+EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -20,9 +21,15 @@ F0 "Power Input" 50
 F1 "Power_Input.sch" 50
 $EndSheet
 $Sheet
-S 980  1180 500  150 
+S 980  1230 500  150 
 U 5C81AEFF
-F0 "Backup Supply" 50
-F1 "BackupSupply.sch" 50
+F0 "Backup Supply 1" 50
+F1 "BackupSupply1.sch" 50
+$EndSheet
+$Sheet
+S 980  1580 500  150 
+U 5C904C6B
+F0 "Backup Supply 2" 50
+F1 "BackupSupply2.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:Supercap_Demo-cache
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -647,9 +648,9 @@ Wire Wire Line
 	1850 6210 1850 4450
 Connection ~ 1850 4450
 Wire Wire Line
-	6870 4510 6980 4510
+	6870 4510 7140 4510
 Wire Wire Line
-	6980 4510 6980 6410
+	7140 4510 7140 6410
 Text GLabel 8210 4310 2    40   Output ~ 0
 ~HOLDUP_UV
 Wire Wire Line
@@ -863,5 +864,7 @@ Connection ~ 4960 4510
 Wire Wire Line
 	4960 4510 4960 4600
 Wire Wire Line
-	6980 6410 2150 6410
+	7140 6410 2150 6410
+Text Notes 8950 2410 0    50   ~ 0
+LTC3129 - micropower buck-boost\nOr\nBigger charge pump
 $EndSCHEMATC
