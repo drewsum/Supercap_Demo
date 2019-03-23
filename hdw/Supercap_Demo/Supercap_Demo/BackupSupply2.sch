@@ -323,14 +323,14 @@ Wire Wire Line
 	4440 4750 3040 4750
 Wire Wire Line
 	3040 4750 3040 4830
-Text GLabel 1750 5030 0    50   Input ~ 6
+Text GLabel 1750 5030 0    50   Input ~ 0
 VTANK_ON
 Wire Wire Line
 	2050 5030 2520 5030
 Connection ~ 2520 5030
-Text GLabel 4440 4350 0    50   UnSpc ~ 6
+Text GLabel 4440 4350 0    50   UnSpc ~ 0
 POS3P3_MNG_VCC
-Text GLabel 7140 4750 2    50   UnSpc ~ 6
+Text GLabel 7140 4750 2    50   UnSpc ~ 0
 POS3P3_MNG_VCC
 Wire Wire Line
 	7140 4750 7060 4750
@@ -350,7 +350,7 @@ F 7 "311-1.00MHRCT-ND" H 3850 3720 60  0001 C CNN "Digi-Key PN"
 	1    3550 3320
 	-1   0    0    -1  
 $EndComp
-Text GLabel 2750 3650 0    50   Output ~ 6
+Text GLabel 2750 3650 0    50   Output ~ 0
 POS3P3_MNG_PGOOD
 Wire Wire Line
 	2750 3650 4110 3650
@@ -436,9 +436,9 @@ U 1 1 5CA7A7D5
 P 8880 2870
 F 0 "TP403" H 8880 3020 50  0000 C CNN
 F 1 "TP" H 8880 3020 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 8880 2870 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 8880 2870 60  0001 C CNN
 F 3 "" H 8880 2870 60  0000 C CNN
-F 4 "36-5005-ND" H 8880 2870 50  0001 C CNN "Digi-Key PN"
+F 4 "36-5000-ND" H 8880 2870 50  0001 C CNN "Digi-Key PN"
 	1    8880 2870
 	1    0    0    -1  
 $EndComp
@@ -450,7 +450,7 @@ U 1 1 5CA7FF66
 P 8300 4050
 F 0 "D401" V 8346 3962 50  0000 R CNN
 F 1 "BAT54W" V 8255 3962 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 8300 3875 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323_SC-70" H 8300 3875 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" H 8300 4050 50  0001 C CNN
 F 4 "1727-3570-1-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    8300 4050
@@ -636,9 +636,9 @@ AR Path="/5C81AEFF/5C9835A9" Ref="TP?"  Part="1"
 AR Path="/5C904C6B/5C9835A9" Ref="TP401"  Part="1" 
 F 0 "TP401" H 5290 1980 50  0000 C CNN
 F 1 "TP" H 5290 1980 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 5290 1830 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5290 1830 60  0001 C CNN
 F 3 "" H 5290 1830 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5290 1830
 	1    0    0    -1  
 $EndComp
@@ -652,9 +652,9 @@ AR Path="/5C81AEFF/5C9861EA" Ref="TP?"  Part="1"
 AR Path="/5C904C6B/5C9861EA" Ref="TP402"  Part="1" 
 F 0 "TP402" H 5690 1980 50  0000 C CNN
 F 1 "TP" H 5690 1980 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 5690 1830 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5690 1830 60  0001 C CNN
 F 3 "" H 5690 1830 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5690 1830
 	1    0    0    -1  
 $EndComp

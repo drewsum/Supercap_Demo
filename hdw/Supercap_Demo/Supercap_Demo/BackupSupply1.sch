@@ -551,7 +551,7 @@ $EndComp
 Wire Wire Line
 	2410 6210 2410 4450
 Connection ~ 2410 4450
-Text GLabel 9960 4310 2    40   Output ~ 6
+Text GLabel 9960 4310 2    40   Output ~ 8
 ~VTANK_UV
 Wire Wire Line
 	9960 4310 9880 4310
@@ -563,9 +563,9 @@ U 1 1 5B523B1A
 P 5790 3070
 F 0 "TP302" H 5790 3220 50  0000 C CNN
 F 1 "TP" H 5790 3220 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 5790 3070 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5790 3070 60  0001 C CNN
 F 3 "" H 5790 3070 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5790 3070
 	1    0    0    -1  
 $EndComp
@@ -583,7 +583,7 @@ F 6 "478-10017-ND" H 5090 3990 50  0001 C CNN "Digi-Key PN"
 	1    5090 3990
 	1    0    0    -1  
 $EndComp
-Text Notes 5020 1900 0    60   ~ 6
+Text Notes 5020 1900 0    60   ~ 12
 VTANKnom = 4.3V\n~V1_UV~ => VTANK = 2.31V\n~V2_UV~ => VTANK = 2.89V\nSwitchover to VTANK bias => +3.3V = 2.805V
 $Comp
 L Custom_Library:C_Custom C302
@@ -648,7 +648,7 @@ Wire Wire Line
 	9180 4210 9180 4080
 Wire Wire Line
 	9960 4210 9180 4210
-Text GLabel 9960 4210 2    40   Output ~ 6
+Text GLabel 9960 4210 2    40   Output ~ 8
 ~POS3P3_UV
 $Comp
 L power:PWR_FLAG #FLG0301
@@ -776,7 +776,7 @@ Wire Wire Line
 	2050 2410 7500 2410
 Wire Wire Line
 	1360 5050 2050 5050
-Text GLabel 1360 5050 0    60   Output ~ 6
+Text GLabel 1360 5050 0    60   Output ~ 0
 TANK_PGOOD
 $Comp
 L Custom_Library:R_Custom R?
@@ -822,9 +822,9 @@ U 1 1 5C9D32B5
 P 2050 2330
 F 0 "TP301" H 2050 2480 50  0000 C CNN
 F 1 "TP" H 2050 2480 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2050 2330 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 2050 2330 60  0001 C CNN
 F 3 "" H 2050 2330 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    2050 2330
 	1    0    0    -1  
 $EndComp
@@ -837,9 +837,9 @@ U 1 1 5C9D6874
 P 6190 4000
 F 0 "TP304" H 6190 4150 50  0000 C CNN
 F 1 "TP" H 6190 4150 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 6190 4000 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 6190 4000 60  0001 C CNN
 F 3 "" H 6190 4000 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    6190 4000
 	1    0    0    -1  
 $EndComp
@@ -852,9 +852,9 @@ U 1 1 5C9D9FEB
 P 6960 4430
 F 0 "TP305" H 6960 4580 50  0000 C CNN
 F 1 "TP" H 6960 4580 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 6960 4430 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 6960 4430 60  0001 C CNN
 F 3 "" H 6960 4430 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    6960 4430
 	1    0    0    -1  
 $EndComp
@@ -869,9 +869,9 @@ U 1 1 5C9DD19F
 P 7420 2910
 F 0 "TP306" V 7420 3060 50  0000 L CNN
 F 1 "TP" H 7420 3060 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 7420 2910 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 7420 2910 60  0001 C CNN
 F 3 "" H 7420 2910 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    7420 2910
 	0    -1   -1   0   
 $EndComp
@@ -883,9 +883,9 @@ U 1 1 5C9E0BA4
 P 7420 3410
 F 0 "TP307" V 7420 3560 50  0000 L CNN
 F 1 "TP" H 7420 3560 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 7420 3410 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 7420 3410 60  0001 C CNN
 F 3 "" H 7420 3410 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    7420 3410
 	0    -1   -1   0   
 $EndComp
@@ -897,9 +897,9 @@ U 1 1 5C9E4509
 P 5870 3750
 F 0 "TP303" V 5870 3900 50  0000 L CNN
 F 1 "TP" H 5870 3900 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 5870 3750 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5870 3750 60  0001 C CNN
 F 3 "" H 5870 3750 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    5870 3750
 	0    1    1    0   
 $EndComp
@@ -914,9 +914,9 @@ U 1 1 5C9F0DCF
 P 9500 2330
 F 0 "TP308" H 9500 2480 50  0000 C CNN
 F 1 "TP" H 9500 2480 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 9500 2330 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 9500 2330 60  0001 C CNN
 F 3 "" H 9500 2330 60  0000 C CNN
-F 4 "36-5005-ND" H 9500 2330 50  0001 C CNN "Digi-Key PN"
+F 4 "36-5000-ND" H 9500 2330 50  0001 C CNN "Digi-Key PN"
 	1    9500 2330
 	1    0    0    -1  
 $EndComp
@@ -924,9 +924,9 @@ Wire Wire Line
 	9500 2330 9500 2410
 Wire Wire Line
 	9500 2410 9140 2410
-Text GLabel 1360 4950 0    40   Output ~ 6
+Text GLabel 1360 4950 0    40   Output ~ 0
 ~TANK_PFO
-Text GLabel 8840 4510 2    50   Output ~ 6
+Text GLabel 8840 4510 2    50   Output ~ 10
 VTANK_ON
 $Comp
 L Transistor_FET:2N7002 Q?
@@ -959,7 +959,7 @@ F 3 "" H 2410 6610 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2710 6410 2930 6410
-Text GLabel 3700 6410 2    50   Input ~ 6
+Text GLabel 3700 6410 2    50   Input ~ 0
 VTANK_ON
 Wire Wire Line
 	3400 6410 2930 6410

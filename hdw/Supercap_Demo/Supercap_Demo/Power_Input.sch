@@ -209,17 +209,17 @@ Wire Wire Line
 	3840 1160 3840 1240
 Wire Wire Line
 	3840 1240 3390 1240
-Text GLabel 1360 4860 3    60   UnSpc ~ 6
+Text GLabel 1360 4860 3    60   UnSpc ~ 12
 TANK_PGOOD
-Text GLabel 1660 4860 3    40   UnSpc ~ 6
+Text GLabel 1660 4860 3    40   UnSpc ~ 8
 ~TANK_PFO
-Text GLabel 2260 4860 3    40   UnSpc ~ 6
+Text GLabel 2260 4860 3    40   UnSpc ~ 8
 ~VTANK_UV
-Text GLabel 1960 4860 3    40   UnSpc ~ 6
+Text GLabel 1960 4860 3    40   UnSpc ~ 8
 ~POS3P3_UV
-Text GLabel 2560 4860 3    50   UnSpc ~ 6
+Text GLabel 2560 4860 3    50   UnSpc ~ 10
 VTANK_ON
-Text GLabel 2860 4860 3    50   UnSpc ~ 6
+Text GLabel 2860 4860 3    50   UnSpc ~ 10
 POS3P3_MNG_PGOOD
 $Comp
 L Custom_Library:TP TP?
@@ -229,9 +229,9 @@ AR Path="/5C81AEFF/5C988F0D" Ref="TP?"  Part="1"
 AR Path="/5C81AEEA/5C988F0D" Ref="TP201"  Part="1" 
 F 0 "TP201" H 1360 5010 50  0000 C CNN
 F 1 "TP" H 1360 5010 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 1360 4860 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1360 4860 60  0001 C CNN
 F 3 "" H 1360 4860 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    1360 4860
 	1    0    0    -1  
 $EndComp
@@ -243,9 +243,9 @@ AR Path="/5C81AEFF/5C98A802" Ref="TP?"  Part="1"
 AR Path="/5C81AEEA/5C98A802" Ref="TP203"  Part="1" 
 F 0 "TP203" H 1660 5010 50  0000 C CNN
 F 1 "TP" H 1660 5010 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 1660 4860 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1660 4860 60  0001 C CNN
 F 3 "" H 1660 4860 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    1660 4860
 	1    0    0    -1  
 $EndComp
@@ -257,9 +257,9 @@ AR Path="/5C81AEFF/5C98AB1C" Ref="TP?"  Part="1"
 AR Path="/5C81AEEA/5C98AB1C" Ref="TP204"  Part="1" 
 F 0 "TP204" H 1960 5010 50  0000 C CNN
 F 1 "TP" H 1960 5010 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 1960 4860 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1960 4860 60  0001 C CNN
 F 3 "" H 1960 4860 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    1960 4860
 	1    0    0    -1  
 $EndComp
@@ -271,9 +271,9 @@ AR Path="/5C81AEFF/5C98AD99" Ref="TP?"  Part="1"
 AR Path="/5C81AEEA/5C98AD99" Ref="TP205"  Part="1" 
 F 0 "TP205" H 2260 5010 50  0000 C CNN
 F 1 "TP" H 2260 5010 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2260 4860 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 2260 4860 60  0001 C CNN
 F 3 "" H 2260 4860 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    2260 4860
 	1    0    0    -1  
 $EndComp
@@ -285,9 +285,9 @@ AR Path="/5C81AEFF/5C98B006" Ref="TP?"  Part="1"
 AR Path="/5C81AEEA/5C98B006" Ref="TP206"  Part="1" 
 F 0 "TP206" H 2560 5010 50  0000 C CNN
 F 1 "TP" H 2560 5010 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2560 4860 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 2560 4860 60  0001 C CNN
 F 3 "" H 2560 4860 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    2560 4860
 	1    0    0    -1  
 $EndComp
@@ -299,9 +299,9 @@ AR Path="/5C81AEFF/5C98B263" Ref="TP?"  Part="1"
 AR Path="/5C81AEEA/5C98B263" Ref="TP207"  Part="1" 
 F 0 "TP207" H 2860 5010 50  0000 C CNN
 F 1 "TP" H 2860 5010 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2860 4860 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 2860 4860 60  0001 C CNN
 F 3 "" H 2860 4860 60  0000 C CNN
-F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
 	1    2860 4860
 	1    0    0    -1  
 $EndComp
@@ -313,9 +313,9 @@ AR Path="/5C81AEFF/5C98DC33" Ref="TP?"  Part="1"
 AR Path="/5C81AEEA/5C98DC33" Ref="TP208"  Part="1" 
 F 0 "TP208" H 3390 1330 50  0000 C CNN
 F 1 "TP" H 3390 1330 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 3390 1180 60  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 3390 1180 60  0001 C CNN
 F 3 "" H 3390 1180 60  0000 C CNN
-F 4 "36-5005-ND" H 3390 1180 50  0001 C CNN "Digi-Key PN"
+F 4 "36-5000-ND" H 3390 1180 50  0001 C CNN "Digi-Key PN"
 	1    3390 1180
 	1    0    0    -1  
 $EndComp
