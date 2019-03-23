@@ -754,8 +754,6 @@ Wire Wire Line
 Wire Wire Line
 	6700 3150 7020 3150
 Wire Wire Line
-	6700 4510 6960 4510
-Wire Wire Line
 	2050 5050 2930 5050
 Wire Wire Line
 	2410 4450 2930 4450
@@ -816,95 +814,6 @@ Wire Wire Line
 Connection ~ 1500 4950
 Wire Wire Line
 	2800 5350 2930 5350
-$Comp
-L Custom_Library:TP TP301
-U 1 1 5C9D32B5
-P 2050 2330
-F 0 "TP301" H 2050 2480 50  0000 C CNN
-F 1 "TP" H 2050 2480 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 2050 2330 60  0001 C CNN
-F 3 "" H 2050 2330 60  0000 C CNN
-F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    2050 2330
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 2330 2050 2410
-Connection ~ 2050 2410
-$Comp
-L Custom_Library:TP TP304
-U 1 1 5C9D6874
-P 6190 4000
-F 0 "TP304" H 6190 4150 50  0000 C CNN
-F 1 "TP" H 6190 4150 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 6190 4000 60  0001 C CNN
-F 3 "" H 6190 4000 60  0000 C CNN
-F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    6190 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6190 4000 6190 4080
-Connection ~ 6190 4080
-$Comp
-L Custom_Library:TP TP305
-U 1 1 5C9D9FEB
-P 6960 4430
-F 0 "TP305" H 6960 4580 50  0000 C CNN
-F 1 "TP" H 6960 4580 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 6960 4430 60  0001 C CNN
-F 3 "" H 6960 4430 60  0000 C CNN
-F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    6960 4430
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6960 4430 6960 4510
-Connection ~ 6960 4510
-Wire Wire Line
-	6960 4510 7740 4510
-$Comp
-L Custom_Library:TP TP306
-U 1 1 5C9DD19F
-P 7420 2910
-F 0 "TP306" V 7420 3060 50  0000 L CNN
-F 1 "TP" H 7420 3060 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 7420 2910 60  0001 C CNN
-F 3 "" H 7420 2910 60  0000 C CNN
-F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    7420 2910
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7420 2910 7500 2910
-$Comp
-L Custom_Library:TP TP307
-U 1 1 5C9E0BA4
-P 7420 3410
-F 0 "TP307" V 7420 3560 50  0000 L CNN
-F 1 "TP" H 7420 3560 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 7420 3410 60  0001 C CNN
-F 3 "" H 7420 3410 60  0000 C CNN
-F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    7420 3410
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7420 3410 7500 3410
-$Comp
-L Custom_Library:TP TP303
-U 1 1 5C9E4509
-P 5870 3750
-F 0 "TP303" V 5870 3900 50  0000 L CNN
-F 1 "TP" H 5870 3900 50  0001 C CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5870 3750 60  0001 C CNN
-F 3 "" H 5870 3750 60  0000 C CNN
-F 4 "36-5002-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
-	1    5870 3750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5790 3750 5870 3750
 Wire Wire Line
 	9140 2330 9140 2410
 Connection ~ 9140 2410
@@ -1056,4 +965,6 @@ F 3 "" H 9140 2330 50  0001 C CNN
 	1    9140 2330
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6700 4510 7740 4510
 $EndSCHEMATC
