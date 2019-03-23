@@ -14,4 +14,350 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Connector:Barrel_Jack_Switch J201
+U 1 1 5C3914FA
+P 1260 1340
+F 0 "J201" H 1260 1550 50  0000 C CNN
+F 1 "+3.3VIN" H 1260 1140 50  0000 C CNN
+F 2 "Connectors:BARREL_JACK" H 1310 1300 50  0001 C CNN
+F 3 "~" H 1310 1300 50  0001 C CNN
+	1    1260 1340
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:IRF7404 Q201
+U 1 1 5C3917FF
+P 2200 1340
+F 0 "Q201" V 2543 1340 50  0000 C CNN
+F 1 "IRF7404" V 2452 1340 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2400 1265 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e" V 2200 1340 50  0001 L CNN
+F 4 "IRF7404PBFCT-ND" H 2200 1340 50  0001 C CNN "Digi-Key PN"
+	1    2200 1340
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0203
+U 1 1 5C392500
+P 1630 1510
+F 0 "#PWR0203" H 1630 1260 50  0001 C CNN
+F 1 "GND" H 1630 1360 50  0000 C CNN
+F 2 "" H 1630 1510 50  0001 C CNN
+F 3 "" H 1630 1510 50  0001 C CNN
+	1    1630 1510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1630 1510 1630 1440
+Wire Wire Line
+	1630 1440 1560 1440
+Wire Wire Line
+	1630 1440 1630 1340
+Wire Wire Line
+	1630 1340 1560 1340
+Connection ~ 1630 1440
+$Comp
+L Diode:MM5Zxx D201
+U 1 1 5C39387B
+P 2580 1530
+F 0 "D201" V 2534 1609 50  0000 L CNN
+F 1 "MM5Z10V" V 2625 1609 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-523" H 2580 1355 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf" H 2580 1530 50  0001 C CNN
+F 4 "MM5Z10VT1GOSCT-ND" H 2580 1530 50  0001 C CNN "Digi-Key PN"
+	1    2580 1530
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 1240 1560 1240
+Wire Wire Line
+	2580 1380 2580 1240
+Wire Wire Line
+	2580 1240 2400 1240
+Wire Wire Line
+	2200 1900 2200 1740
+Wire Wire Line
+	2580 1680 2580 1740
+Wire Wire Line
+	2580 1740 2200 1740
+Connection ~ 2200 1740
+Wire Wire Line
+	2200 1740 2200 1540
+$Comp
+L power:GND #PWR0204
+U 1 1 5C397646
+P 2200 2200
+F 0 "#PWR0204" H 2200 1950 50  0001 C CNN
+F 1 "GND" H 2200 2050 50  0000 C CNN
+F 2 "" H 2200 2200 50  0001 C CNN
+F 3 "" H 2200 2200 50  0001 C CNN
+	1    2200 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2580 1240
+$Comp
+L Custom_Library:CP_Tant_Custom C201
+U 1 1 5C399601
+P 3390 1570
+F 0 "C201" H 3415 1670 50  0000 L CNN
+F 1 "100uF" H 3415 1470 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Reflow" H 3428 1420 50  0001 C CNN
+F 3 "" H 3415 1670 50  0001 C CNN
+F 4 "478-3919-1-ND" H 3390 1570 50  0001 C CNN "Digi-Key PN"
+F 5 "7343" H 3240 1670 50  0000 R CNN "display_footprint"
+F 6 "16V" H 3240 1570 50  0000 R CNN "Voltage"
+F 7 "20%" H 3240 1470 50  0000 R CNN "Tolerance"
+	1    3390 1570
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0205
+U 1 1 5C399A67
+P 3390 1720
+F 0 "#PWR0205" H 3390 1470 50  0001 C CNN
+F 1 "GND" H 3390 1570 50  0000 C CNN
+F 2 "" H 3390 1720 50  0001 C CNN
+F 3 "" H 3390 1720 50  0001 C CNN
+	1    3390 1720
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3390 1420 3390 1240
+Connection ~ 3390 1240
+Wire Wire Line
+	3390 1240 2580 1240
+Wire Wire Line
+	3390 1180 3390 1240
+$Comp
+L Custom_Library:R_Custom R?
+U 1 1 5C395FB9
+P 2200 2050
+AR Path="/5BB27BA3/5C395FB9" Ref="R?"  Part="1" 
+AR Path="/5BB27BF7/5C395FB9" Ref="R?"  Part="1" 
+AR Path="/5C1DE17A/5C395FB9" Ref="R?"  Part="1" 
+AR Path="/5C1E3A08/5C395FB9" Ref="R?"  Part="1" 
+AR Path="/5C38ED7E/5C395FB9" Ref="R?"  Part="1" 
+AR Path="/5C81AEEA/5C395FB9" Ref="R201"  Part="1" 
+F 0 "R201" H 2120 2050 50  0000 R CNN
+F 1 "10k" V 2200 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 2200 2050 50  0001 C CNN
+F 3 "" H 2200 2050 50  0001 C CNN
+F 4 "0603" H 2300 2130 50  0000 L CNN "display_footprint"
+F 5 "1%" H 2300 2050 50  0000 L CNN "Tolerance"
+F 6 "1/10W" H 2310 1970 50  0000 L CNN "Wattage"
+F 7 "RHM10KADCT-ND" H 2500 2450 60  0001 C CNN "Digi-Key PN"
+	1    2200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 5C4332AA
+P 1510 2310
+F 0 "#PWR0202" H 1510 2060 50  0001 C CNN
+F 1 "GND" H 1510 2160 50  0000 C CNN
+F 2 "" H 1510 2310 50  0001 C CNN
+F 3 "" H 1510 2310 50  0001 C CNN
+	1    1510 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:TP TP202
+U 1 1 5C433336
+P 1510 2310
+F 0 "TP202" H 1510 2460 50  0000 C CNN
+F 1 "TP" H 1510 2460 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x01_Pitch2.54mm" H 1510 2310 60  0001 C CNN
+F 3 "" H 1510 2310 60  0000 C CNN
+	1    1510 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0201
+U 1 1 5C460F96
+P 1070 2310
+F 0 "#PWR0201" H 1070 2060 50  0001 C CNN
+F 1 "GND" H 1070 2160 50  0000 C CNN
+F 2 "" H 1070 2310 50  0001 C CNN
+F 3 "" H 1070 2310 50  0001 C CNN
+	1    1070 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0201
+U 1 1 5C460FFD
+P 1070 2310
+F 0 "#FLG0201" H 1070 2385 50  0001 C CNN
+F 1 "PWR_FLAG" H 1070 2460 50  0000 C CNN
+F 2 "" H 1070 2310 50  0001 C CNN
+F 3 "~" H 1070 2310 50  0001 C CNN
+	1    1070 2310
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0206
+U 1 1 5C965D36
+P 3840 1160
+F 0 "#PWR0206" H 3840 1010 50  0001 C CNN
+F 1 "+3.3V" H 3840 1300 50  0000 C CNN
+F 2 "" H 3840 1160 50  0001 C CNN
+F 3 "" H 3840 1160 50  0001 C CNN
+	1    3840 1160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3840 1160 3840 1240
+Wire Wire Line
+	3840 1240 3390 1240
+Text GLabel 1360 4860 3    60   UnSpc ~ 6
+TANK_PGOOD
+Text GLabel 1660 4860 3    40   UnSpc ~ 6
+~TANK_PFO
+Text GLabel 2260 4860 3    40   UnSpc ~ 6
+~VTANK_UV
+Text GLabel 1960 4860 3    40   UnSpc ~ 6
+~POS3P3_UV
+Text GLabel 2560 4860 3    50   UnSpc ~ 6
+VTANK_ON
+Text GLabel 2860 4860 3    50   UnSpc ~ 6
+POS3P3_MNG_PGOOD
+$Comp
+L Custom_Library:TP TP?
+U 1 1 5C988F0D
+P 1360 4860
+AR Path="/5C81AEFF/5C988F0D" Ref="TP?"  Part="1" 
+AR Path="/5C81AEEA/5C988F0D" Ref="TP201"  Part="1" 
+F 0 "TP201" H 1360 5010 50  0000 C CNN
+F 1 "TP" H 1360 5010 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 1360 4860 60  0001 C CNN
+F 3 "" H 1360 4860 60  0000 C CNN
+F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+	1    1360 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:TP TP?
+U 1 1 5C98A802
+P 1660 4860
+AR Path="/5C81AEFF/5C98A802" Ref="TP?"  Part="1" 
+AR Path="/5C81AEEA/5C98A802" Ref="TP203"  Part="1" 
+F 0 "TP203" H 1660 5010 50  0000 C CNN
+F 1 "TP" H 1660 5010 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 1660 4860 60  0001 C CNN
+F 3 "" H 1660 4860 60  0000 C CNN
+F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+	1    1660 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:TP TP?
+U 1 1 5C98AB1C
+P 1960 4860
+AR Path="/5C81AEFF/5C98AB1C" Ref="TP?"  Part="1" 
+AR Path="/5C81AEEA/5C98AB1C" Ref="TP204"  Part="1" 
+F 0 "TP204" H 1960 5010 50  0000 C CNN
+F 1 "TP" H 1960 5010 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 1960 4860 60  0001 C CNN
+F 3 "" H 1960 4860 60  0000 C CNN
+F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+	1    1960 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:TP TP?
+U 1 1 5C98AD99
+P 2260 4860
+AR Path="/5C81AEFF/5C98AD99" Ref="TP?"  Part="1" 
+AR Path="/5C81AEEA/5C98AD99" Ref="TP205"  Part="1" 
+F 0 "TP205" H 2260 5010 50  0000 C CNN
+F 1 "TP" H 2260 5010 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2260 4860 60  0001 C CNN
+F 3 "" H 2260 4860 60  0000 C CNN
+F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+	1    2260 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:TP TP?
+U 1 1 5C98B006
+P 2560 4860
+AR Path="/5C81AEFF/5C98B006" Ref="TP?"  Part="1" 
+AR Path="/5C81AEEA/5C98B006" Ref="TP206"  Part="1" 
+F 0 "TP206" H 2560 5010 50  0000 C CNN
+F 1 "TP" H 2560 5010 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2560 4860 60  0001 C CNN
+F 3 "" H 2560 4860 60  0000 C CNN
+F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+	1    2560 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:TP TP?
+U 1 1 5C98B263
+P 2860 4860
+AR Path="/5C81AEFF/5C98B263" Ref="TP?"  Part="1" 
+AR Path="/5C81AEEA/5C98B263" Ref="TP207"  Part="1" 
+F 0 "TP207" H 2860 5010 50  0000 C CNN
+F 1 "TP" H 2860 5010 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 2860 4860 60  0001 C CNN
+F 3 "" H 2860 4860 60  0000 C CNN
+F 4 "36-5007-ND" H 0   0   50  0001 C CNN "Digi-Key PN"
+	1    2860 4860
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:TP TP?
+U 1 1 5C98DC33
+P 3390 1180
+AR Path="/5C81AEFF/5C98DC33" Ref="TP?"  Part="1" 
+AR Path="/5C81AEEA/5C98DC33" Ref="TP208"  Part="1" 
+F 0 "TP208" H 3390 1330 50  0000 C CNN
+F 1 "TP" H 3390 1330 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5005-5009_Compact" H 3390 1180 60  0001 C CNN
+F 3 "" H 3390 1180 60  0000 C CNN
+F 4 "36-5005-ND" H 3390 1180 50  0001 C CNN "Digi-Key PN"
+	1    3390 1180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J202
+U 1 1 5C98F994
+P 8570 1240
+F 0 "J202" H 8570 1340 50  0000 C CNN
+F 1 "VOUT" H 8570 1040 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 8570 1240 50  0001 C CNN
+F 3 "~" H 8570 1240 50  0001 C CNN
+	1    8570 1240
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom_Library:+3.3V_MNG #PWR0207
+U 1 1 5C9901E8
+P 8290 1160
+F 0 "#PWR0207" H 8290 1010 50  0001 C CNN
+F 1 "+3.3V_MNG" H 8290 1300 50  0000 C CNN
+F 2 "" H 8290 1160 50  0000 C CNN
+F 3 "" H 8290 1160 50  0000 C CNN
+	1    8290 1160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8290 1160 8290 1240
+Wire Wire Line
+	8290 1240 8370 1240
+$Comp
+L power:GND #PWR0208
+U 1 1 5C99090D
+P 8290 1420
+F 0 "#PWR0208" H 8290 1170 50  0001 C CNN
+F 1 "GND" H 8290 1270 50  0000 C CNN
+F 2 "" H 8290 1420 50  0001 C CNN
+F 3 "" H 8290 1420 50  0001 C CNN
+	1    8290 1420
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8370 1340 8290 1340
+Wire Wire Line
+	8290 1340 8290 1420
 $EndSCHEMATC
