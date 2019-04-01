@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -25,11 +25,5 @@ S 980  1230 500  150
 U 5C81AEFF
 F0 "Backup Supply 1" 50
 F1 "BackupSupply1.sch" 50
-$EndSheet
-$Sheet
-S 980  1580 500  150 
-U 5C904C6B
-F0 "Backup Supply 2" 50
-F1 "BackupSupply2.sch" 50
 $EndSheet
 $EndSCHEMATC
